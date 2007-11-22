@@ -1,0 +1,3 @@
+Здраствуйте, {if $reg.realname}{$reg.realname}{else}{$reg.login}{/if}.
+Вы зарегистрировались на {$smarty.server.SERVER_NAME}, для активации акаунта потвердите регистрацию.<br/>
+<a href="http://{$smarty.server.SERVER_NAME}{$smarty.server.PHP_SELF}-activation.{$reg.login|urlencode}/{$reg.actkey}">http://{$smarty.server.SERVER_NAME}{$smarty.server.PHP_SELF}-activation.{$reg.login|urlencode}/{$reg.actkey}</a>

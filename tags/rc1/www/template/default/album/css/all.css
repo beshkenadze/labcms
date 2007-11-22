@@ -1,0 +1,64 @@
+/*********************************    раскладка   *****************************/
+.album{
+	WIDTH: 850px;
+	margin:50px auto;
+}
+.album table{
+	border-collapse: collapse;
+	width:100%;
+}
+.album td {
+	border: #c47d73 1px solid; 
+	padding: 10px; 
+}
+.album .smalltext {
+	margin-bottom: 5px; 
+}
+.album .smalltext a {
+	margin-top: 5px; 
+	margin-bottom: 5px;
+}
+.quote {
+	border: 1px solid; 
+	padding: 10px; 
+}
+.quote .quote {
+	border: 1px solid; 
+}
+.quote .quote .quote {
+	border: 1px solid; 
+}
+.quote span {
+	padding: 0px; 
+	display: block; 
+	margin: 0px; 
+}
+/*********************************    цвета  *****************************/
+.album .smalltext {
+	color: #c47d73;
+}
+.quote {
+	background-color: #e00
+}
+.quote .quote {
+	background-color: #e40
+}
+.quote .quote .quote {
+	background-color: #ea0
+}
+.quote span {
+	padding: 0px; 
+	display: block; 
+	margin: 0px; 
+}
+/*********************************    шрифты   *****************************/
+.album .smalltext {
+	font-size: 8px; 
+}
+.album .smalltext a {
+	font-size: 9px; 
+}
+
+.quote span {
+	text-decoration: underline;
+}

@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+#comments h2 a{
+	text-decoration:none;
+	color: #553;
+}
+.mceContentBody {
+background: white;	
+}

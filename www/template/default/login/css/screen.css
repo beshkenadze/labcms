@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+#login {
+	font-size: 1.1em;
+	color: #554;
+	display: block;
+	padding: 8px 0 8px 5%;
+	text-decoration: none;
+	width: 95%;
+}
+#login input{
+	border: 1px solid #EAEADA;
+}
+#login label{
+	display:block
+}

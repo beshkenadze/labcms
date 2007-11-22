@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+.extBox{
+	border:1px solid black;
+	position: relative;
+	width: 88px;
+	height:4px;
+	margin:0 0 10px 0;
+	padding: 0;
+	background: #fff;
+}
+.intBox{
+	display: block; 
+	position: relative;  
+	text-align: center; 
+	color: #333; 
+	height: 4px; 
+	line-height: 4px;
+	background: #125462 url(../images/box_back.png) top repeat;
+}
+
+.cyr,.pr {
+	font-size: 10px;
+}
